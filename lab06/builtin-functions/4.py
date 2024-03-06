@@ -1,7 +1,7 @@
 def custom_sleep(n, delay): 
     start_time = 0 
     while start_time <=  delay: 
-        start_time += 0.00004  
+        start_time += 0.000051  
     return n**(1/2)
 print("Input: ")
 n = int(input())
